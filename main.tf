@@ -31,6 +31,6 @@ resource "aws_security_group" "gusta-sg" {
   }
 
   tags = {
-    Name = "${var.tags}"
+    Name = var.tags
   }
 }
